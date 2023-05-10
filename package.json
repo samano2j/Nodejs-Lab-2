@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-lab-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samano2j/Nodejs-Lab-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samano2j/Nodejs-Lab-2/issues"
+  },
+  "homepage": "https://github.com/samano2j/Nodejs-Lab-2#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
