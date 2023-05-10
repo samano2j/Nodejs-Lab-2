@@ -59,11 +59,8 @@ const handleRouter = (req, res) => {
         })
 
         req.on('end', () => {
-            console.log(body);
             const parsedBody = decodeURIComponent(Buffer.concat(body).toString().replace(/\+/g, ' '))
-            console.log(parsedBody);
             const message = parsedBody.split("=")[1]
-            console.log(message);
             fs.writeFile('read.txt', message, (err) => {
                 if(err) throw err
                 res.statusCode = 302
